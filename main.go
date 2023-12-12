@@ -6,7 +6,7 @@ func main() {
 	ConferenceName := "go conference" //Synatic Sugar   :variable creation
 	const ConferenceTickets int = 50  //declaring constants
 	var remainingTickets int = 50
-	var bookings [50]string
+	var bookings [50]string 
 
 	fmt.Printf("conferenceTickets is %T, remainingTickets is %T conferenceName is %T\n", ConferenceTickets, remainingTickets, ConferenceName)
 
